@@ -1,0 +1,47 @@
+header {
+  #intro {
+    justify-content: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    position: relative;
+
+    .title {
+      top: 10vh;
+      left: 10vh;
+      font-size: 5em;
+      line-height: 1.1;
+      position: absolute;
+      margin: 0;
+
+      span {
+        display: block;
+      }
+
+      .line1 {
+        margin-bottom: 30px;
+      }
+    }
+
+    .skip-content {
+      align-self: flex-end;
+      background: transparent;
+      border: 3px solid white;
+      color: white;
+      border-radius: 35px;
+      font-size: 25px;
+      margin-bottom: 7vh;
+      height: 70px;
+      width: 70px;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &:focus,
+      &:hover {
+        outline: none;
+      }
+    }
+  }
+}

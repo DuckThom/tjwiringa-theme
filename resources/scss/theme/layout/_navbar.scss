@@ -1,0 +1,18 @@
+#navigation {
+  transition: all 250ms;
+  transition-property: background;
+  border: none;
+
+  &.navbar-transparent {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0));
+    transition: all 250ms;
+    transition-property: background;
+  }
+
+  .navbar-nav > li > a {
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 15px;
+    font-weight: 600;
+  }
+}

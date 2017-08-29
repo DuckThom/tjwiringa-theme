@@ -1,0 +1,9 @@
+{
+    "name": "luna/tjwiringa-theme",
+    "type": "streams-addon",
+    "autoload": {
+        "psr-4": {
+            "Luna\\TjwiringaTheme\\": "src/"
+        }
+    }
+}
